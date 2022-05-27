@@ -69,6 +69,18 @@
 }
 
 
+@font-face {
+  font-family: "Asap-Variable";
+  src: url("Asap-VariableFont_wght.ttf");
+}
+
+
+#bodi {
+	background: linear-gradient(45deg, #3d97e8, #50adf2);
+	background-attachment: fixed;
+	user-select: none;
+  	font-family: "Asap-Variable", serif;
+}
 
 #bodi1 {
 	background: linear-gradient(90deg, #00FF00, #0000FF);
