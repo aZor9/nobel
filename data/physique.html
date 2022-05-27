@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>Physique</title>
+ 	<link rel="stylesheet" href="css/style-domaine.css"/>
+ 	<script type="text/javascript" src="js/main.js"></script>
+ </head>
+
+ <body id="bodi2">
+
+	<div style="text-align: left;">
+ 	<a href="../index.html"><img id="image-home" src="image/home.png" alt="back"></a>
+
+ 	
+	<br>
+ 	<div id="titre">Prix Nobel de Physique</div>
+ 	<br>
+
+
+ 	<div style="height:50px"></div> 
+
+	
+
+ 	<div style="text-align:center;">
+ 	<a class="open-button" onclick="openEinstein()"><img id="personalité" src="image/albert-einstein.png" alt="image d'un homme grand : Albert Einstein">
+	<p id="texte"><u>Albert Einstein</u></p></a></div>
+
+	<div style="height:75px"></div>	
+
+ 	<div style="text-align:center;">
+ 	<a class="open-button" onclick="openCurie()"><img id="petite-image" id="personalité" src="image/marie-curie.png" alt="image d'une grande femme : Marie Curie">
+	<p id="texte"><u>Marie Curie</u></p></a></div>
+
+ 	
+
+ 
+	<div style="height:50px"></div>
+
+
+    <div class="contain-popup">
+      <div class="form-popup" id="popupEinstein">
+		<div style="height:25px; width: 500px;"></div> 
+          <h2>Albert Einstein</h2>
+          <p>Albert Einstein est un physicien celèbre
+          	<br>1879 - 1955
+          	<br>
+          	<br>il a reçu :
+          	<br>- le prix nobel de Physique en 1921
+          	<br>- la médaille Copley en 1925
+          	<br>- la médaille Max-Planck en 1929
+          	<br>- la médaille Franklin en 1935
+          </p>
+			<div style="height:25px"></div> 
+			<a href="https://fr.wikipedia.org/wiki/Albert_Einstein" target="_blank">wikipédia</a>
+			<div style="height:25px"></div> 
+          <button type="button" class="btn cancel" onclick="closeEinstein()">Fermer</button>
+          <div style="height:25px"></div>
+      </div>
+    </div>
+
+    <div class="contain-popup">
+      <div class="form-popup" id="popupCurie">
+		<div style="height:25px; width: 500px;"></div> 
+          <h2>Marie Curie</h2>
+          <p>Marie Curie est une physicienne et chimiste celèbre
+          	<br>1867 - 1934
+          	<br>
+          	<br>elle a reçu :
+          	<br>- le prix nobel de Physique en 1903
+          	<br>- le prix nobel de Chimie en 1911
+          	<br>- la médaille Davy en 1903
+			<div style="height:25px"></div> 
+			<a href="https://fr.wikipedia.org/wiki/Marie_Curie" target="_blank">wikipédia</a>
+			<div style="height:25px"></div> 
+          <button type="button" class="btn cancel" onclick="closeCurie()">Fermer</button>
+          <div style="height:25px"></div>
+      </div>
+    </div>
+
+
+
+
+
+ </body>
