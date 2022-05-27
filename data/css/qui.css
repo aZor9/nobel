@@ -1,0 +1,69 @@
+
+#image-home
+{
+	width: 20px;
+	height: 20px;
+	float:left;
+	transition: 0.5s;
+}
+
+#image-home:hover
+{
+	width: 30px;
+	height: 30px;
+}
+
+
+
+ 
+#titre
+{
+	text-align: center;
+	font-size: 45px;
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: default;
+	background: rgba(0, 0, 0, 0.25);
+	height: 80px;
+	vertical-align: middle;
+	line-height: 80px;
+ 	border-radius:50px 50px;
+	transition: 0.5s;
+}
+
+#titre:hover
+{
+	text-decoration: underline #FFF;
+	font-size: 50px;
+	background: rgba(0, 0, 0, 0.35);
+}
+
+
+#texte
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#blanco
+{
+border-radius:50px 50px;
+margin:0 auto;
+background: rgba(256, 256, 256, 0.25);
+transition: 0.5s;
+text-align: center;
+align-content: center;
+}
+
+#blanco:hover
+{
+border-radius:50px 50px;
+margin:0 auto;
+background: rgba(256, 256, 256, 0.35);
+text-align: center;
+align-content: center;
+}
+
+
+
