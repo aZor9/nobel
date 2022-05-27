@@ -41,6 +41,7 @@
  
 #titre
 {
+  	font-family: "FredokaOne-Regular", serif;
 	text-align: center;
 	font-size: 45px;
 	text-decoration: underline;
@@ -70,6 +71,12 @@
 
 
 @font-face {
+  font-family: "FredokaOne-Regular";
+  src: url("FredokaOne-Regular.ttf");
+}
+
+
+@font-face {
   font-family: "Asap-Variable";
   src: url("Asap-VariableFont_wght.ttf");
 }
@@ -85,41 +92,48 @@
 #bodi1 {
 	background: linear-gradient(90deg, #00FF00, #0000FF);
 	user-select: none;
+  	font-family: "Asap-Variable", serif;
 }
 
 #bodi2 {
 	background: linear-gradient(90deg, #00FFFF, #0000FF);
 	user-select: none;
+  	font-family: "Asap-Variable", serif;
 }
 
 
 #bodi3 {
 	background: linear-gradient(90deg, #FF0000, #FFFF00);
 	user-select: none;
-    overflow:hidden;
+    	overflow:hidden;
+  	font-family: "Asap-Variable", serif;
 }
 
 
 #bodi4 {
 	background: linear-gradient(90deg, #00FFFF, #FF00DC);
 	user-select: none;
+  	font-family: "Asap-Variable", serif;
 }
 
 
 #bodi5 {
 	background: linear-gradient(90deg, #FFFF00, #00FFFF);
 	user-select: none;
+  	font-family: "Asap-Variable", serif;
 }
 
 
 #bodi6 {
 	background: linear-gradient(90deg, #FF0000, #FF00FF);
 	user-select: none;
+  	font-family: "Asap-Variable", serif;
 }
 
 #bodi7 {
 	background: linear-gradient(90deg, #FFAA00, #00AAFF);
 	user-select: none;
+  	font-family: "Asap-Variable", serif;
 }
 
 
@@ -131,7 +145,8 @@
 
       position: relative;
       text-align: center;
-      width: 100%;
+      width: 100%;      
+  	font-family: "Asap-Variable", serif;
 }
 
 /* Masquez la Popup */
